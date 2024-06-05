@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projetinho do chat-gpt</title>
+</head>
+
+<body>
+
+
+
+
+    <form id="inputForm">
+        <label for="userInput">Digite sua pergunta:</label>
+        <input type="text" id="userInput" name="userInput" required>
+    <a>
+        <artigo class="txt"></artigo>
+        <button>
+            clique 
+        </button>
+    </a>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('inputForm').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            const userInput = document.getElementById('userInput').value;
+            const response = await fetch('/gerar-ideia', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ input: userInput }),
+            });
+            const data = await response.json();
+            document.getElementById('result').innerText = data.ideia;
+        });
+    </script>
+</body>
+
+</html>
