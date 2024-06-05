@@ -1,2 +1,10 @@
 # projeto-all-labs
 projeto com base na criação de perguntas ao chat gpt 
+Uma ideia inovadora para uma startup focada em respeito em bem -estar e a valorize
+
+*Valorize-se* é uma plataforma inovadora focada no bem-estar e desenvolvimento profissional dos colaboradores no Brasil. 
+   Oferece avaliação de clima organizacional
+ em tempo real, programas de desenvolvimento pessoal e profissional,
+  sistema de reconhecimento e recompensas, suporte ao bem-estar mental e físico, canais de comunicação aberta e 
+  ferramentas de gestão de conflitos. As empresas pagam uma assinatura mensal para acessar esses recursos, 
+  promovendo um ambiente de trabalho mais respeitoso e produtivo.
